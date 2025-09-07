@@ -1,0 +1,112 @@
+/* Register.css */
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.register-form input {
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.register-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.register-button:disabled {
+  background-color: #a0c8ff;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  background-color: #ffd2d2;
+  color: #b00020;
+  border: 1px solid #b00020;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.success-msg {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #155724;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.login-redirect {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-redirect .login-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+  font-size: 14px;
+}
+
+.login-redirect .login-button:hover {
+  color: #0056b3;
+}
+
